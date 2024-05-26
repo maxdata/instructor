@@ -4,7 +4,9 @@ from openai import OpenAI
 from typing import Optional
 from pydantic import BaseModel, Field
 from enum import Enum
+import os
 
+OPENAI_API_KEY= os.getenv("OPENAI_API_KEY")
 client = instructor.from_openai(OpenAI())
 
 
