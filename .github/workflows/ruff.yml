@@ -1,9 +1,9 @@
 name: Ruff
 
-on:
-  push:
-  pull_request:
-    branches: [main]
+# on:
+#   push:
+#   pull_request:
+#     branches: [main]
 
 env:
   WORKING_DIRECTORY: "."
